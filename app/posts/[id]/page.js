@@ -51,11 +51,11 @@ const postPage = async ({ params }) => {
 
 
  
-export async function generateStaticParams(){
-  const posts=await getAllPosts();
-  return posts.map(post =>({
-    id:post.id.toString()
-  }))
-};
+// export async function generateStaticParams(){
+//   const posts=await getAllPosts();
+//   return posts.map(post =>({
+//     id:post.id.toString()
+//   }))
+// };
 
 
