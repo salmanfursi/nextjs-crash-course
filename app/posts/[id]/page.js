@@ -47,7 +47,7 @@ const postPage = async ({ params }) => {
   );
 };
 
-
+export default postPage;
 
 
  
